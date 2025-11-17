@@ -1,0 +1,28 @@
+{
+  // Python 分析额外路径，包含当前目录
+  "python.analysis.extraPaths": ["./"],
+  // Python 诊断严重性覆盖，将未绑定变量和可选成员访问报告为信息级别
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnboundVariable": "information",
+    "reportOptionalMemberAccess": "information"
+  },
+  // Python 类型检查模式，设置为严格模式
+  "python.analysis.typeCheckingMode": "strict",
+  // Python 默认解释器路径，指向虚拟环境
+  "python.defaultInterpreterPath": ".venv/Scripts/python",
+  // 启用 Python linting
+  "python.linting.enabled": true,
+  // Python 代码格式化提供者，使用 Black
+  "python.formatting.provider": "black",
+  // 启用 pytest 测试
+  "python.testing.pytestEnabled": true,
+  // 启用自动导入补全
+  "python.analysis.autoImportCompletions": true,
+  // 启用 Python 分析索引
+  "python.analysis.indexing": true,
+  // 在终端中激活 Python 环境
+  "python.terminal.activateEnvironment": true,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code",
+  "Codegeex.GenerationPreference": "line by line"
+}
